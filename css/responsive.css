@@ -1,0 +1,60 @@
+nav.call {
+    justify-content: center;
+}
+
+.call1 {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    flex-direction: colum;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 940px) {
+    header {}
+    .deviceSection1 {
+        display: none;
+    }
+    section.section1 {
+        height: auto;
+    }
+    .sectionText1 {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+    .sectionText1 h2 {
+        margin-top: 70px;
+    }
+    .sectionText1 ul {
+        display: inline-block;
+    }
+    .sectionText1 ul li {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .desktopList {
+        display: none;
+    }
+    .menuToggle {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .call1 h2 {
+        font-size: 1.9rem;
+        color: #ffffff;
+        font-weight: bolder;
+    }
+    .call1 p {
+        margin-top: 10px;
+        font-size: 1.4rem;
+        color: #ffffff;
+    }
+}

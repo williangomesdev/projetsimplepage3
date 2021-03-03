@@ -1,0 +1,65 @@
+section.section1 {
+    width: 100%;
+    max-width: 1440px;
+    height: 400px;
+    background-color: #472562;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.section1Container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionText1 {
+    color: #ffffff;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    left: 190px;
+    top: 0px;
+}
+
+.sectionText1 h2 {
+    font-size: 26px;
+    margin-top: 70px;
+    font-weight: lighter;
+}
+
+.sectionText1 p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sectionText1 ul {
+    list-style-position: inside;
+}
+
+.sectionText1 ul li {
+    margin-top: 8px;
+}
+
+.sectionText1 input[type=text] {
+    background-color: #ff703d;
+    width: 165px;
+    height: 44px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 30px;
+}
+
+.deviceSection1 {
+    width: 50%;
+    height: 450px;
+    position: relative;
+    top: -50px;
+    right: 100px;
+    background-image: url(../imagens/device.png);
+    background-size: 100% 100%;
+}

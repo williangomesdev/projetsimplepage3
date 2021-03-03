@@ -8,6 +8,8 @@
     <meta name="description" content="Site para aprendizado de desnvolvimento web" />
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/section.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="icon" href="" />
@@ -16,20 +18,49 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="desktopMenu">
             <div class="logo"></div>
-            <ul>
+            <ul class="desktopList">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="menuToggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+            <ul class="mobileList">
                 <li><a href="">Home</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
-        <div class="call1">
-            <h2>Systems suitable </br>for authentic companies</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti magni eligendi dolores facilis iusto sequi, natus nulla non facere hic cumque sapiente accusantium tempora fugiat, quaerat culpa, quibusdam impedit!</p>
-        </div>
+        <nav class="call">
+            <div class="call1">
+                <h2>Systems suitable </br>for authentic companies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti magni eligendi dolores facilis iusto sequi, natus nulla non facere hic cumque sapiente accusantium tempora fugiat, quaerat culpa, quibusdam impedit!</p>
+            </div>
+        </nav>
     </header>
+    <section class="section1">
+        <div class="section1Container">
+            <div class="sectionText1">
+                <h2>We develop unique systems</h2>
+                <p>We develop unique systems</p>
+                <ul>
+                    <li>Sites</li>
+                    <li>Online Stores</li>
+                    <li>Systems</li>
+                </ul>
+                <div></div>
+                <input type="text" name="acao" value="Contact" />
+            </div>
+            <div class="deviceSection1"></div>
+        </div>
+    </section>
 </body>
 
 </html>
