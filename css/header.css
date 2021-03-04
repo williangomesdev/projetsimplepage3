@@ -1,8 +1,9 @@
     header {
-        width: 100vw;
+        width: 100%;
         max-width: 1440px;
         margin: 0 auto;
         height: 90vh;
+        min-height: 400px;
         padding: 40px 2%;
         background-image: url(../imagens/capa.png);
         background-size: cover;
@@ -85,11 +86,13 @@
         width: 100%;
         max-width: 1440px;
         height: 100%;
+        max-height: 40%;
         padding: 0 2%;
-        margin: 0 auto;
+        margin: 20vh auto;
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
+        flex-wrap: wrap;
     }
     
     .call1 {
@@ -109,5 +112,6 @@
     }
     
     .call1 p {
+        margin-top: 1rem;
         color: #ffffff;
     }
