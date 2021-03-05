@@ -1,94 +1,152 @@
-nav.call1 {
-    flex-direction: column;
-}
-
-@media screen and (max-width: 1024px) {
-    header {
-        height: 95vh;
-    }
-    nav.call {
-        justify-content: center;
-    }
-    .call1 {
-        width: 100%;
-        margin: 0;
-        text-align: justify;
-        flex-direction: colum;
-        justify-content: flex-start;
-    }
-    .call1 p {
-        max-width: 700px;
-    }
-}
-
-@media screen and (max-width: 940px) {
-    .deviceSection1 {
-        display: none;
-    }
-    section.section1 {
-        height: auto;
-    }
-    .sectionText1 {
-        width: 100%;
-        position: relative;
-        left: 0;
-        top: 0;
-        text-align: center;
-    }
-    .sectionText1 h2 {
-        margin-top: 70px;
-    }
-    .sectionText1 ul {
-        display: inline-block;
-    }
-    .sectionText1 ul li {
-        text-align: left;
-    }
-}
-
-@media screen and (max-width: 823px) {
-    header {
-        height: 100vh;
-    }
-}
-
-@media screen and (max-width: 653px) {
-    header {
-        height: 400px;
-    }
-    .desktopList {
-        display: none;
-    }
-    .menuToggle {
-        display: block;
-        cursor: pointer;
-    }
-    nav.call {
-        height: 100%;
-        margin-top: 0;
-    }
-}
-
-@media screen and (max-width: 568px) {
-    .call1 h2 {
-        font-size: 1.9rem;
-    }
-    .call1 p {
-        font-size: 1.4rem;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    nav.call {
-        margin-top: 40px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .call1 h2 {
-        font-size: 1.7rem;
-    }
-    .call1 p {
-        font-size: 1.2rem;
-    }
-}
+                            nav.call1 {
+                                flex-direction: column;
+                            }
+                            
+                            @media screen and (max-width: 1024px) {
+                                header {
+                                    height: 95vh;
+                                }
+                                nav.call {
+                                    justify-content: center;
+                                }
+                                .call1 {
+                                    width: 100%;
+                                    margin: 0;
+                                    text-align: justify;
+                                    flex-direction: colum;
+                                    justify-content: flex-start;
+                                }
+                                .call1 p {
+                                    max-width: 700px;
+                                }
+                                section.section3 {
+                                    flex-direction: column;
+                                }
+                                .sec3Left {
+                                    width: 100%;
+                                    flex-direction: column;
+                                }
+                                .sec3LWrap {
+                                    width: 80%;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                }
+                                .sec3LWrap h2 {
+                                    width: 100%;
+                                }
+                                .sec3Left p {
+                                    text-align: justify;
+                                }
+                                .sec3Right {
+                                    width: 100%;
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+                                .imgAuthor {
+                                    width: 100px;
+                                    height: 100px;
+                                    border-radius: 50px;
+                                }
+                            }
+                            
+                            @media screen and (max-width: 940px) {
+                                .deviceSection1 {
+                                    display: none;
+                                }
+                                section.section1 {
+                                    height: auto;
+                                }
+                                .sectionText1 {
+                                    width: 100%;
+                                    position: relative;
+                                    left: 0;
+                                    top: 0;
+                                    text-align: center;
+                                }
+                                .sectionText1 h2 {
+                                    margin-top: 70px;
+                                }
+                                .sectionText1 ul {
+                                    display: inline-block;
+                                }
+                                .sectionText1 ul li {
+                                    text-align: left;
+                                }
+                            }
+                            
+                            @media screen and (max-width: 823px) {
+                                header {
+                                    height: 100vh;
+                                }
+                            }
+                            
+                            @media screen and (max-width: 653px) {
+                                header {
+                                    height: 400px;
+                                }
+                                .desktopList {
+                                    display: none;
+                                }
+                                .menuToggle {
+                                    display: block;
+                                    cursor: pointer;
+                                }
+                                nav.call {
+                                    height: 100%;
+                                    margin-top: 0;
+                                }
+                                .mockupImg {
+                                    display: none;
+                                }
+                                section.section2 {
+                                    padding: 50px 0;
+                                }
+                            }
+                            
+                            @media screen and (max-width: 568px) {
+                                .call1 h2 {
+                                    font-size: 1.9rem;
+                                }
+                                .call1 p {
+                                    font-size: 1.4rem;
+                                }
+                            }
+                            
+                            @media screen and (max-width: 425px) {
+                                nav.call {
+                                    margin-top: 40px;
+                                }
+                                .sec3Left,
+                                .sec3Right {
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+                                .sec3RWrap {
+                                    display: block;
+                                    text-align: center;
+                                }
+                                .sec3RWrap h2,
+                                .sec3RWrap h4 {
+                                    width: 100%;
+                                    padding-bottom: 20px;
+                                    margin: 0 auto;
+                                }
+                                .sec3RWrap h4 {
+                                    padding-top: 10px;
+                                }
+                                .imgAuthor {
+                                    margin: 0 auto;
+                                }
+                                .sliderBullets {
+                                    margin: 0 auto;
+                                    justify-content: center;
+                                }
+                                @media screen and (max-width: 375px) {
+                                    .call1 h2 {
+                                        font-size: 1.7rem;
+                                    }
+                                    .call1 p {
+                                        font-size: 1.2rem;
+                                    }
+                                }
+                            }
