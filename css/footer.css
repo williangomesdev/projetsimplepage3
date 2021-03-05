@@ -1,0 +1,64 @@
+footer {
+    background-color: #472563;
+    padding: 100px 0;
+    color: #ffffff;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footerLeft,
+.footerRight {
+    width: 50%;
+    margin: 15px;
+}
+
+.footerLeft h2,
+.footerRight h2 {
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.footerLeft p {
+    font-weight: lighter;
+    font-size: 15px;
+    max-width: 400px;
+}
+
+.footerLeft form {
+    padding: 0 10px;
+}
+
+.footerLeft form input[type=text],
+.footerLeft form input[type=email] {
+    width: 100%;
+    max-width: 480px;
+    height: 60px;
+    margin-top: 10px;
+    line-height: 58px;
+    padding-left: 8px;
+    border: 1px solid #cccccc;
+}
+
+.footerLeft form textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 160px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+}
+
+.footerLeft input.btnOrg[type=text] {
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.footerRight .map {
+    width: 100%;
+    margin-top: 10px;
+    max-width: 480px;
+    height: 480px;
+    background-color: #ffffff;
+}

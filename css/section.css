@@ -42,7 +42,8 @@ section.section1 {
     margin-top: 8px;
 }
 
-.sectionText1 input[type=text] {
+.sectionText1 input.btnOrg,
+footer input.btnOrg[type=text] {
     background-color: #ff703d;
     width: 165px;
     height: 44px;
@@ -105,7 +106,7 @@ section.section3 {
 
 .sec3Left {
     width: 50%;
-    padding: 140px 0 90px 0;
+    padding: 90px 0;
     color: #ffffff;
     background-color: #835FA7;
     display: flex;
@@ -138,7 +139,7 @@ section.section3 {
 
 .sec3Right {
     width: 50%;
-    padding: 140px 0 90px 0;
+    padding: 90px 0;
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
