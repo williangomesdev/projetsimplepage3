@@ -1,15 +1,17 @@
 footer {
     background-color: #472563;
-    padding: 100px 0;
+    padding-top: 100px;
     color: #ffffff;
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .footerLeft,
 .footerRight {
-    width: 50%;
+    width: 100%;
+    padding: 0 2%;
     margin: 15px;
 }
 
@@ -22,11 +24,6 @@ footer {
 .footerLeft p {
     font-weight: lighter;
     font-size: 15px;
-    max-width: 400px;
-}
-
-.footerLeft form {
-    padding: 0 10px;
 }
 
 .footerLeft form input[type=text],
@@ -58,7 +55,22 @@ footer {
 .footerRight .map {
     width: 100%;
     margin-top: 10px;
-    max-width: 480px;
     height: 480px;
     background-color: #ffffff;
+}
+
+.finalFooter {
+    width: 100%;
+    padding: 40px 2%;
+    color: #ffffff;
+    background-color: #192123;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finalFooter p {
+    font-size: 14px;
 }
