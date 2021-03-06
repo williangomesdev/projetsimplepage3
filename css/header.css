@@ -8,6 +8,9 @@
         background-image: url(../imagens/capa.png);
         background-size: cover;
         background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     
     .desktopMenu {
@@ -96,8 +99,8 @@
     }
     
     .call1 {
-        width: 50%;
-        height: 30%;
+        width: 70%;
+        max-width: 700px;
         margin-right: 10%;
         display: flex;
         flex-direction: row;
@@ -106,7 +109,7 @@
     }
     
     .call1 h2 {
-        font-size: 3rem;
+        font-size: 4rem;
         color: #ffffff;
         font-weight: bolder;
     }
@@ -114,4 +117,7 @@
     .call1 p {
         margin-top: 1rem;
         color: #ffffff;
+        text-align: justify;
+        font-size: 3rem;
+        line-height: 2;
     }
