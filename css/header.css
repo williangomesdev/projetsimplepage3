@@ -12,7 +12,7 @@
         flex-direction: column;
         justify-content: space-around;
     }
-    
+
     .desktopMenu {
         width: 100%;
         max-width: 1440px;
@@ -21,7 +21,7 @@
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .logo {
         width: 150px;
         height: 50px;
@@ -30,26 +30,26 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .desktopList {
         list-style-type: none;
         display: flex;
     }
-    
+
     .desktopList li a {
         padding: 20px;
         font-size: 2rem;
         color: white;
         text-decoration: none;
     }
-    
+
     .menuToggle {
         width: 40px;
         height: 30px;
         margin-right: 2%;
         display: none;
     }
-    
+
     .one,
     .two,
     .three {
@@ -59,11 +59,27 @@
         margin: 6px auto;
         transition-duration: 0.3s;
     }
-    
+
     .one {
         margin-top: 0;
     }
-    
+
+    .menuToggle.active {
+        z-index: 11;
+    }
+
+    .menuToggle.active .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menuToggle.active .two {
+        opacity: 0;
+    }
+
+    .menuToggle.active .three {
+        transform: rotate(-45deg) translate(7px, -9px);
+    }
+
     .mobileList {
         list-style-type: none;
         position: absolute;
@@ -77,14 +93,18 @@
         align-items: center;
         background-color: #7159c1;
     }
-    
+
+    .mobileList.active {
+        display: flex;
+    }
+
     .mobileList li a {
         padding: 20px;
         font-size: 2rem;
         color: white;
         text-decoration: none;
     }
-    
+
     nav.call {
         width: 100%;
         max-width: 1440px;
@@ -97,7 +117,7 @@
         flex-direction: row-reverse;
         flex-wrap: wrap;
     }
-    
+
     .call1 {
         width: 70%;
         max-width: 700px;
@@ -107,13 +127,13 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     .call1 h2 {
         font-size: 4rem;
         color: #ffffff;
         font-weight: bolder;
     }
-    
+
     .call1 p {
         margin-top: 1rem;
         color: #ffffff;
