@@ -9,14 +9,13 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
     <link href="css/section.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap"
         rel="stylesheet">
-    <script src="./js/functions.js"></script>
-    <script src="./js/toggle.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4"></script>
+
     <link rel="icon" href="" />
     <title>Projeto_03</title>
 </head>
@@ -27,9 +26,9 @@
             <div class="logo"></div>
             <ul class="desktopList">
                 <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menuToggle" onclick="toggleMenu();">
                 <div class="one"></div>
@@ -52,7 +51,7 @@
             </div>
         </nav>
     </header>
-    <section class="section1">
+    <section id="services" class="section1">
         <div class="section1Container">
             <div class="sectionText1">
                 <h2>We develop unique systems</h2>
@@ -68,7 +67,7 @@
             <div class="deviceSection1"></div>
         </div>
     </section>
-    <section class="section2">
+    <section id="about" class="section2">
         <h2>Developed from people to people</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eveniet officia incidunt distinctio odio
             accusantium necessitatibus et voluptates molestias voluptas ex tenetur quis, temporibus earum voluptate
@@ -86,7 +85,79 @@
         </article>
         <article class="sec3Right">
             <div class="sec3RWrap">
-                <h2>Willian Amaro Gomes</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h2>Willian Amaro Gomes</h2>
+                            <div class="containerImg">
+                                <div class="imgAuthor"></div>
+                            </div>
+                            <h4>Developer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eveniet officia incidunt
+                                distinctio
+                                odio accusantium necessitatibus et voluptates molestias voluptas ex tenetur quis,
+                                temporibus earum
+                                voluptate consectetur eos suscipit quod?
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Willian Amaro Gomes</h2>
+                            <div class="containerImg">
+                                <div class="imgAuthor"></div>
+                            </div>
+                            <h4>Developer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eveniet officia incidunt
+                                distinctio
+                                odio accusantium necessitatibus et voluptates molestias voluptas ex tenetur quis,
+                                temporibus earum
+                                voluptate consectetur eos suscipit quod?
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Willian Amaro Gomes</h2>
+                            <div class="containerImg">
+                                <div class="imgAuthor"></div>
+                            </div>
+                            <h4>Developer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eveniet officia incidunt
+                                distinctio
+                                odio accusantium necessitatibus et voluptates molestias voluptas ex tenetur quis,
+                                temporibus earum
+                                voluptate consectetur eos suscipit quod?
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Willian Amaro Gomes</h2>
+                            <div class="containerImg">
+                                <div class="imgAuthor"></div>
+                            </div>
+                            <h4>Developer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eveniet officia incidunt
+                                distinctio
+                                odio accusantium necessitatibus et voluptates molestias voluptas ex tenetur quis,
+                                temporibus earum
+                                voluptate consectetur eos suscipit quod?
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Willian Amaro Gomes</h2>
+                            <div class="containerImg">
+                                <div class="imgAuthor"></div>
+                            </div>
+                            <h4>Developer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eveniet officia incidunt
+                                distinctio
+                                odio accusantium necessitatibus et voluptates molestias voluptas ex tenetur quis,
+                                temporibus earum
+                                voluptate consectetur eos suscipit quod?
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <!-- <h2>Willian Amaro Gomes</h2>
                 <div class="containerImg">
                     <div class="imgAuthor"></div>
                 </div>
@@ -95,15 +166,16 @@
                     odio accusantium necessitatibus et voluptates molestias voluptas ex tenetur quis, temporibus earum
                     voluptate consectetur eos suscipit quod?
                 </p>
+
                 <div class="sliderBullets">
                     <div style="background-color: black;"></div>
                     <div></div>
-                    <div></div>
-                </div>
+                    <div></div> -->
+            </div>
             </div>
         </article>
     </section>
-    <footer>
+    <footer id="contact">
         <section class="footerLeft">
             <h2>Contact</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, tempore! Temporibus vero officiis
@@ -130,6 +202,18 @@
     </section>
 
     </footer>
+    <script src="./js/functions.js"></script>
+    <script src="./js/toggle.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4"></script>
 </body>
 
 </html>
