@@ -19,11 +19,13 @@ footer {
 .footerRight h2 {
     font-size: 23px;
     font-weight: lighter;
+    margin: 1rem 0;
 }
 
 .footerLeft p {
     font-weight: lighter;
     font-size: 15px;
+    margin: 2rem 0;
 }
 
 .footerLeft form input[type=text],
@@ -41,15 +43,16 @@ footer {
     width: 100%;
     max-width: 480px;
     height: 160px;
-    margin-top: 10px;
     padding: 15px;
     border: 1px solid #cccccc;
+    margin: 1rem 0;
+
 }
 
 .footerLeft input.btnOrg[type=text] {
     display: block;
     width: 200px;
-    margin-top: 10px;
+    margin: 2rem 0;
 }
 
 .footerRight .map {

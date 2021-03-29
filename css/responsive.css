@@ -17,7 +17,6 @@
         width: 100%;
         text-align: center;
         padding: 20px;
-        margin-top: 90px;
     }
 
     .sec3RWrap h2 {
@@ -76,6 +75,16 @@
     section.section3 .sec3Left,
     section.section3 .sec3Right {
         width: 100%;
+
+    }
+
+    section.section3 .sec3Right {
+        padding: 0 0 90px 0;
+
+    }
+
+    .sec3RWrap p {
+        width: 50rem;
     }
 
     footer {
@@ -91,9 +100,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 2rem;
     }
 
     .footerLeft input.btnOrg[type=text] {
-        margin: 10px auto;
+        margin: 2rem auto;
     }
 }
